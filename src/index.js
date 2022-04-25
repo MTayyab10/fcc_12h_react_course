@@ -1,11 +1,13 @@
-import React from "react";
-import ReactDOM from "react-dom"
-import Navbar from "./Navbar";
+import React from "react"
+import ReactDOM from "react-dom/client"
+import App from "./Project3 - AirBnb/app";
 
 
-ReactDOM.render(
-    <div>
-        <Navbar/>
-    </div>,
-    document.getElementById('root')
+const root = ReactDOM.createRoot(document.getElementById("root"))
+
+root.render(
+
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>
 )
