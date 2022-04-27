@@ -1,13 +1,14 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
-import App from "./Project3 - AirBnb/app";
-
+import App from "./Project4 - Travel Journal/app";
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 
 root.render(
 
     <React.StrictMode>
+
         <App />
+
     </React.StrictMode>
 )

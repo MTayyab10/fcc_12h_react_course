@@ -127,7 +127,6 @@
     border-radius: 6px;
     color: #282D35;
     padding: 2px;
-
 }
 
 .all-icons {
@@ -173,13 +172,13 @@
     color: #222222;
 }
 
-/* Card.js CSS */
+/* card.js CSS */
 
 .card-info {
     padding: 6px;
 
 }
-/* bs card class */
+/* BS-5 card class */
 
 .card:hover {
     transform: scale(1.03);
@@ -227,4 +226,108 @@
     /* identical to box height, or 13px */
 
     color: #222222
+}
+
+/* For Notifications  */
+
+/*.item {*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*}*/
+
+.sold-out-notify {
+    position: absolute;
+    top: 4px;
+    left: 6px;
+}
+
+/* Project 4 - Travel Journal */
+
+/* Header.js CSS */
+
+.header {
+    padding: 5px;
+    background: #F55A5A;
+}
+
+.header h3 {
+
+    text-align: center;
+    color: #FFFFFF;
+
+    font-weight: 500;
+    line-height: 18px;
+
+}
+
+/* Card.js CSS */
+
+.info {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.location {
+
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+
+    line-height: 12px;
+    letter-spacing: 0.10em;
+
+    color: #2B283A;
+}
+
+.map-color {
+    color: #F55A5A;
+    padding-right: 5px;
+}
+
+.map {
+
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 12px;
+    padding-left: 13px;
+
+    text-decoration-line: underline;
+    text-transform: none;
+    letter-spacing: 0;
+
+    color: #918E9B;
+}
+
+.title {
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #2B283A
+}
+
+.date {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 12px;
+
+    padding-top: 13px;
+    color: #2B283A;
+}
+
+.descrp {
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 15px */
+
+    padding-top: 5px;
+    color: #2B283A;
 }

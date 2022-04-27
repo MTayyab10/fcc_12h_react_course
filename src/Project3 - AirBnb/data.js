@@ -1,28 +1,41 @@
 import firstImg from "../images/person.png"
 import secondImg from "../images/mountain-bike.png"
+
 const data =  [
+
     {
-        rating: 4,
+        id: 1,
         img: firstImg,
         description: "A very beautiful man",
-        price: 200
+        price: 200,
+        sold_out: true,
+
+        rating: {
+            star: 4.5,
+            peoples: 6,
+        },
     },
     {
-        rating: 3.59,
+        id: 2,
         img: secondImg,
         description: "Bike with dark background",
-        price: 400
+        price: 400,
+
+        rating: {
+            star: 3.5,
+            peoples: 8,
+        },
     },
     {
-        rating: 3.99,
+        id: 3,
         img: firstImg,
         description: "Hey! I am description",
-        price: 500
-    },
-    // {
-    //     description: "Hey! I am description. 4",
-    //     price: 600
-    // },
+        price: 500,
 
+        rating: {
+            star: 6,
+            peoples: 10,
+        },
+    },
 ]
 export default data;
