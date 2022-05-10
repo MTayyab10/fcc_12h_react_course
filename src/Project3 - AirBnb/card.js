@@ -18,11 +18,11 @@ export default function Card(props) {
         "display": "flex",
         "flex-direction": "column"
     }
+
     let badgeText;
     if (props.item.sold_out){
         badgeText = "SOLD OUT";
     }
-
 
     return (
 
@@ -31,7 +31,7 @@ export default function Card(props) {
             <div className="row">
                 <div className="col-md-3">
 
-                    <div className="card rounded-3 item">
+                    <div className="card rounded-3">
 
                         <img src={props.item.img} className="rounded card-img-top" style={cardImg} alt="..."/>
 
@@ -61,6 +61,7 @@ export default function Card(props) {
                                    From ${props.item.price}
                                 </span>
                                 / person
+
                             </h3>
 
                         </div>

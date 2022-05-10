@@ -2,7 +2,7 @@ import data from "./data";
 import Card from "./card";
 import Header from "./header";
 
-export default function App() {
+export default function TravelApp() {
 
     const cardData = data.map((item) =>
 

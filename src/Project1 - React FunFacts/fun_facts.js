@@ -11,17 +11,17 @@ export default function FunFacts() {
             <div className="bg-dark">
                 <div className="container">
 
-                    <div className="d-flex flex-row bd-highlight">
+                    <div className="d-flex flex-row ">
 
-                        <div className="offset-md-2 p-2 bd-highlight">
+                        <div className="offset-md-2 p-2 ">
 
                             <img src={reactLogo} alt="react-logo" className="me-1 pb-2" width="32px"/>
 
-                            <h2 className="d-inline-block me-3 react-color" >ReactFacts</h2>
+                            <h2 className=" me-3 react-color" >ReactFacts</h2>
                         </div>
 
-                        <div className="p-2 bd-highlight offset-md-2">
-                            <h2 className="d-inline-block ms-3 text-white">React Course - Project 1</h2>
+                        <div className="p-2  offset-md-2">
+                            <h2 className=" ms-3 text-white">React Course - Project 1</h2>
 
                         </div>
                     </div>

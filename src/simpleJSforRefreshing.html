@@ -1,0 +1,99 @@
+<style>
+    div {
+        padding-left: 20px
+    }
+
+    button {
+        font-size: 25px;
+    }
+</style>
+
+<div style="padding-left: 20px">
+
+    <h1 id="heading">Hi, Vanilla JS</h1>
+
+    <p id="add-note"></p>
+    <p id="remove-note"></p>
+
+    <button id="add" onclick="addItems()">Add item</button>
+    <button id="remove" onclick="removeItems()">Remove item</button>
+
+</div>
+
+<script>
+
+    // add-items to the cart without refresh page, Beautiful feature
+
+    let items = ['javascript', 'python', 'django', 'react']
+
+    function addItems() {
+        const newItem = `item ${items.length + 1}`;
+        items.push(newItem)
+        console.log(items)
+        if (items.length === 10) {
+            document.getElementById('add').disabled = true;
+            document.getElementById('add-note').innerHTML = "You can only add 10 items"
+        } else {
+            document.getElementById('add').disabled = false;
+        }
+        document.getElementById('heading').innerHTML = items;
+    }
+
+    function removeItems() {
+        // const item = `${items.length + 1} removed`
+        items.pop();
+        console.log(items)
+        if (items.length === 0) {
+            document.getElementById('remove').disabled = true;
+            if ("show")
+            document.getElementById('remove-note').innerHTML = "all items are removed"
+        }
+        else {
+            // document.querySelector('p').innerHTML = ""
+            document.getElementById('remove').disabled = false;
+        }
+
+
+        document.getElementById('heading').innerHTML = items;
+    }
+
+    function greeting(name){
+
+        const date = new Date().getHours() % 12; // 12 hours format
+        console.log(date % 12)
+
+        let time;
+
+
+        if (date >= 4 && date <= 12)
+            time = `Morning`;
+         else if (date >= 1 && date <= 5)
+            time = "Afternoon";
+         else if (date >= 6  )
+            time = "Night"
+
+        return `Good ${time}, Mr. ${name}`;
+
+    }
+    console.log(greeting("Tayyab"))
+
+
+    // increment
+
+    // document.querySelector('button').addEventListener('click', increment);
+
+    // let counter = 0;
+    // function increment() {
+    //     document.querySelector("h1").innerHTML = counter++;
+    // }
+
+    // change txt eventListener
+
+    // document.querySelector('button').addEventListener('click', changeTxt)
+    //
+    // function changeTxt() {
+    //     document.querySelector('h1').innerHTML = "I have changed"
+    // }
+
+
+</script>

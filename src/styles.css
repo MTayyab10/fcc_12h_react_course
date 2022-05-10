@@ -331,3 +331,125 @@
     padding-top: 5px;
     color: #2B283A;
 }
+
+/* Project5 - MemeGen */
+
+.meme-header {
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+
+.meme {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    /*line-height: 24px;*/
+
+    padding-left: 50px;
+    margin-left: 30px;
+}
+
+.project {
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+
+    padding-right: 50px;
+    margin-right: 30px;
+
+}
+
+.form {
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+.meme-input {
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    /*border: 1px solid gray;*/
+    border: 1px solid #D5D4D8;
+
+}
+#btn {
+    text-align: center;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+#btn:hover {
+
+    color: #e6d8eb;
+
+}
+.meme-img-bg {
+
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #ae12e4 100%);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.meme-img-text {
+    font-family: 'Karla', 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    /*line-height: 19px;*/
+    /* identical to box height */
+
+    text-align: center;
+    /*letter-spacing: -0.1em;*/
+    color: #FFFFFF;
+}
+
+.meme-tag1 {
+
+    position: absolute;
+    top: 250px;
+    left: 450px;
+
+    text-transform: uppercase;
+
+    /*font-family: 'Impact', fantasy;*/
+    /*font-style: normal;*/
+    font-weight: 900;
+    font-size: 35px;
+    /*line-height: 39px;*/
+
+    background: #3939ec;
+    color: #FFFFFF;
+    border: 2px solid #000000;
+}
+
+.meme-tag2 {
+
+    position: absolute;
+    top: 500px;
+    left: 450px;
+
+    text-transform: uppercase;
+
+    /*font-family: 'Impact', fantasy;*/
+    /*font-style: normal;*/
+    font-weight: 900;
+    font-size: 35px;
+    /*line-height: 39px;*/
+
+    /*letter-spacing: 1px;*/
+
+    color: #FFFFFF;
+    background: #3939ec;
+    border: 2px solid lightgray;
+}
+
+/* Project6 - Box  */
+
+.box {
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+}

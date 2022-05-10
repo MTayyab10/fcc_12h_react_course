@@ -2,7 +2,7 @@ import Navbar from "./navbar";
 import FunFacts from "./fun_facts";
 import Footer from "./footer";
 
-export default function MyApp() {
+export default function FactApp() {
 
     return (
         <div>
